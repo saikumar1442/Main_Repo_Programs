@@ -1,0 +1,658 @@
+
+Programs :
+============
+
+Find the highest consecutive zeros in an array?
+
+In a string convert lower cases to upper case and vice versa
+
+Find the even numbers from a list and their sum
+
+
+input:aaaabbbcddaac output:a4b3c1d2a2c1
+
+
+First NonRepeating character in a String 
+
+Lowest Average Grade :
+
+  // Example data: {student name, grade}
+        String[][] grades = {
+            {"Alice", "85"},
+            {"Bob", "78"},
+            {"Alice", "90"},
+            {"Bob", "82"},
+            {"Charlie", "95"},
+            {"Charlie", "85"}
+        };
+		
+Remove duplicates from below sorted array
+[21,26,26,33,34,45,45,47,67,67]
+
+How to find the consecutive search for the particular element using streams
+String input_text="abcdXYZabcdefgabcdeXYZXYZXYZ";
+String search_text="XYZ";      
+		
+To Print the duplicate values in the List of Integer values  x[] = {1,1,3,5,6,8,1,9};
+
+
+To print the salary >= 80000 in a emp table using streams
+
+List<Integer> listOfIntegers = Arrays.asList(71, 18, 42, 21, 67, 32, 95, 14, 56, 87);
+To Find the even and odd number in the given List of integer
+
+
+Input: s = "barfoothefoobarman", words = ["foo","bar"]
+Output: [0,9]
+
+String[] words = ["ab","cd","ef"],  output : "abcdef", "abefcd", "cdabef", "cdefab", "efabcd", and "efcdab"
+
+
+List<Employee> empList = Arrays.asList();
+
+To Sort the List of Employees
+
+empList.stream().sorted().collect(Collectors.toList());  
+
+To Sort the List of Employees by using Names
+
+empList.stream().sorted(Comparator.comparing(Employee::getName)).collect(Collectors.toList());
+
+
+Id, Salary>50
+
+In Employee class we hava a Id and Salary. So by using Map we can find the salary > 50
+
+
+
+do you have an experience with any cloud
+
+Mywork : find the unquie character in the string
+
+
+
+String str=new String("JAVA"); // How many ways we can create the object by using new keyword in Java. 
+ 
+interface Additional { int add(int a, int b);} // how can we acheive this interface by using lambda expressions
+ 
+													Additional additional = (a, b) -> a +b;
+
+how to find the second highest number in the given list of integer.
+
+
+Sort the employee name, age and salary using streams.
+
+
+
+int[] arr = [1,2,3,4]
+[2*3*4, 1*3*4, 1*2*4, 1*2*3]
+OUTPUT = [24,12,8,6]
+
+String s = "{([])}";
+
+
+write a code for even and odd number in the given list of integer values.
+Input = [1, 2, 3, 4 , 5, 6, 7, 8, 9, 10, 11]
+Output = [2, 4, 6, 8, 10, 1, 3, 5, 7, 9, 11]
+
+
+Write a singleton program example 
+
+
+
+Class A 
+
+b.m1();
+
+Class B   // this is Some one developed the class, with exception
+
+m1(){
+/0;
+}
+
+Firstly, we want to get the m1() from Class B to Class A. then we want to execute/call the method code without exception in Class A ?
+
+hint : without using the try catch block
+
+
+
+
+Ex : If we have an Interface and 2 Classes are implements to that Interface, In our class we have to call the method, which is there 
+
+	in the ADMIN class by using the Spring Autowired.
+
+ 
+Interface Dept
+
+getEmpl();
+
+Class HR implements Dept{
+
+getEmpl(){
+
+}
+
+}
+
+
+Class ADMIN implements Dept{
+
+@B
+getEmpl(){
+
+}
+}
+
+Class ABC
+
+@Autowired
+@Qualifired
+private Dept dept;
+
+
+dept.getEmpl();
+
+
+
+Controller 
+
+Service/ServiceImpl, either we have the Service or ServiceImpl 
+
+DAO 
+
+
+==============================
+
+
+Spring boot questions
+ 
+
+Write a query to insert data to database using JPARepository
+how get employee id based on department using JPA
+how to compare employee based on salary using Java 8
+
+
+write a query to get employee details from table where department ="ABC" 
+intersector
+
+what part of the application are you working
+what is your main role in your last development team
+Java version (Java 8)
+Hashcode
+
+Problem -> list of user info, active and inactive user, need to eliminate the inactive users(duplicate)
+   We have
+List of users  .users are active and user information is shareble .if we are trying to update the information it should reflect in everywhere
+Hint : this program need to java cache mechanism along with hashmap
+2. Project architecture
+3.  What are restapi methods used and purpose
+4 .spring AOP
+5. what do you know about error codes and how to validate and throw the error information from front end.
+6.list of error codes and when it will throw error codes
+ 
+group by dept within sort by salary java 8
+emplist.stream().collect(Collectors.groupingBy(Employee::getDepartment()).sorted(Comparator.ComparingByInt(Employee::getSalary));
+
+guess the output
+String literal --
+    String s="test";
+    String s1=new String("test")
+    String s2=new String(s);
+	String s3="test";
+    syso(s==s1) -> false
+    s1==s2  false
+    s.equals(s2); -> true 
+	s==s3 -> true
+	s.equals(s3)->true
+guess the output in sysoutprint   
+10+2+"15" - 1215
+and "15"+20+10-  152010
+
+
+about my project and role
+
+write a code group by employee department and get the employee salary
+
+
+String literal --
+    String s="test";
+    String s1=new String("test")
+    String s2=new String(s);
+ String s3="test";
+    syso(s==s1) -> false
+    s1==s2---> false
+    s.equals(s2);--> true
+ s==s3--> true
+ s.equals(s3) --> true ----> Ans
+syso(10+2+"15") ---> 1215 and syso("15"+20+10) --> 152010--> op
+Differnce between maven and gradle?
+
+
+
+1. Sort HashMap By Keys Using Java 8
+ 
+HashMap=> {Xiangh=91, Klusener=82, Narayan=95, Arunkumar=86, Jyous=87, Lisa=89}
+
+
+List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+
+Collection.sort(list, new Comparator<Map.Entry<String, Integer>>);
+
+
+List<Integer> list = Arrays.asList(1, 3, 5, 7, 9);
+ 
+write a program for a given array in a read only mode?  numbers = Collections.unmodifiableList(numbers);
+
+
+
+input: aaaabbbcddaac 
+
+output:a4b3c1d2a2c1
+
+Employee Class : Find the highest percentage in a dept and percentage is >90
+
+id 
+name 
+dept   --> computer dept
+percentage  --> higest student info
+
+List<Student> students = Arrays.asList(new Emp(1,"Ashok", "CSC", 98),
+										new Emp(2, "Pavan", "EEE", 70)
+										new Emp(3, "Hari", "MECH", 60)
+										new Emp(4, "Varun", "CIVIL", 99)
+										new Emp(5, "Pandu", "ECE", 85));
+
+
+Write a REST API code using spring boot and returns the output as JSON format like below
+
+{	"name":"ABC",
+	"contact":9898989898,
+	"address":"XYZ
+}									
+						
+
+
+Program : If we have a student collection object and it has Id, name, department and percentage.
+How to find the highest department percentage in the department by using Streams.
+
+Program : How to find counting the occurance of input string and write the program.
+
+input: aaaabbbcddaac 
+
+output:a4b3c1d2a2c1 
+
+
+==========================================================
+
+
+
+How to find the all employees data by using JPARepository? Ans : Firstly the class extends JPARepostiory then use findAll().
+
+
+
+public interface EmployeeRepo extends JPARepository<Employee, Integer>{}
+
+
+Map<String, Employee> topEmployees =
+    allEmployees.stream().collect(groupingBy(e -> e.department,collectingAndThen(maxBy(comparingInt(e -> e.salary)), Optional::get) ));
+
+
+What is the Agile methodology?
+
+The Agile methodology is a project management approach that involves breaking the project into phases and emphasizes continuous collaboration and improvement. Teams follow a cycle of planning, executing, and evaluating.
+
+What is JIRA ?
+
+Jira is an agile project management tool that supports any agile methodology, be it scrum, kanban, or your own unique flavor. From agile boards, backlogs, roadmaps, reports, to integrations and add-ons you can plan, track, and manage all your agile software development projects from a single tool.
+
+
+Who needs JIRA ?
+
+Jira helps teams plan, assign, track, report, and manage work. It brings teams together for everything from agile software development, customer support, start-ups, and enterprises.
+
+
+
+How to create Singleton design pattern?
+
+Singleton Pattern says that just "define a class that has only one instance and provides a global point of access to it".
+
+In other words, a class must ensure that only single instance should be created and single object can be used by all other classes.
+
+To create the singleton class, we need to have static member of class, private constructor and static factory method.
+
+
+Static member: It gets memory only once because of static, itcontains the instance of the Singleton class.
+Private constructor: It will prevent to instantiate the Singleton class from outside the class.
+Static factory method: This provides the global point of access to the Singleton object and returns the instance to the caller.
+
+
+Advantage of Singleton design pattern
+Saves memory because object is not created at each request. Only single instance is reused again and again.
+
+
+Usage of Singleton design pattern
+Singleton pattern is mostly used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc
+
+
+What is the Factory Method Design Pattern in Java?
+
+A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
+
+The Factory Method Pattern is also known as Virtual Constructor.
+
+Advantage of Factory Design Pattern
+
+Factory Method Pattern allows the sub-classes to choose the type of objects to create.
+It promotes the loose-coupling by eliminating the need to bind application-specific classes into the code. That means the code interacts solely with the resultant interface or abstract class, so that it will work with any classes that implement that interface or that extends that abstract class.
+
+Usage of Factory Design Pattern
+
+When a class doesn't know what sub-classes will be required to create
+When a class wants that its sub-classes specify the objects to be created.
+When the parent classes choose the creation of objects to its sub-classes.
+
+
+Hibernate Annotations :
+
+@Entity, @Table, @Id, @Column, @GeneratedValue, @OrderBy, @Transient, @Temporal, @Lob
+
+
+
+
+In Java 8, we can use Period, Duration or ChronoUnit to calculate the difference between two LocalDate or LocaldateTime.
+
+1. Period to calculate the difference between two LocalDate.
+2. Duration to calculate the difference between two LocalDateTime.
+3. ChronoUnit for everything.
+
+Some Built-in Java Functional Interfaces
+
+Since Java SE 1.8 onwards, there are many interfaces that are converted into functional interfaces. All these interfaces are annotated with @FunctionalInterface. These interfaces are as follows – 
+
+Runnable –> This interface only contains the run() method.
+Comparable –> This interface only contains the compareTo() method.
+ActionListener –> This interface only contains the actionPerformed() method.
+Callable –> This interface only contains the call() method.
+
+Java SE 8 included four main kinds of functional interfaces which can be applied in multiple situations as mentioned below:
+
+Consumer 
+Predicate
+Function 
+Supplier
+
+
+The main Difference between Hashset and LinkedHashSet is : it maintains the insertion order.
+
+Hashset : we can see the elements are stored in an unordered collection.
+
+LinkedHashSet : the elements are iterated in insertion order.
+
+
+Load Balancer Overview :
+
+A load balancer is a service that distributes incoming traffic across multiple servers or resources. In most cases, it sits in front of two or more web servers and distributes network traffic between them. This helps ensure the optimal utilization of server resources and efficient content delivery to the user’s device.
+
+In essence, a load balancer API ensures that requests are sent to the right server at the right time — effectively alleviating strain on any server by evenly distributing requests.
+
+
+what is Actuator in spring boot :
+
+Spring Boot Actuator is a module, that provides production-ready features to monitor and manage your Spring Boot application. It offers various endpoints and metrics that can be used for monitoring, health checks, auditing, and managing your application.
+
+
+The actuator mainly exposes operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+
+What is Swagger ?
+
+Swagger is a handy tool that makes it easier for developers to create, document, and use web services. It helps in building APIs by providing a set of tools that simplify the process. 
+
+
+
+8. **What is a constructor in Java?**:
+   - A constructor is a special type of method that is used to initialize objects. It is called when an object of a class is created.
+   - Constructors have the same name as the class and do not have a return type, not even void.
+
+9. **What is the difference between ArrayList and LinkedList in Java?**:
+   - `ArrayList` is implemented as a resizable array, while `LinkedList` is implemented as a doubly linked list.
+   - Accessing elements by index is faster in `ArrayList`, while inserting and deleting elements in the middle of the list is faster in `LinkedList`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+

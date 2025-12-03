@@ -1,0 +1,1013 @@
+LTI Mindtree :  16-10-2024
+============================
+
+what are the features of jave 8
+
+what is default methods and why and use cased
+
+what is functional Interface and examples of Predicate, function, consumer and suplier with mehtods and return type
+
+what are the methods of predicate and consumer (he said Consumer -> andThen(), then())
+
+what is stream api and types and intermediate and terminal streams
+
+what is singleton design pattern and write the examples
+
+what is diff between Hibernate and JPA
+
+what is load and get methods and which one is good to use? Ans : load()
+
+what is JpaRepository and If we want to implement the query which one to use? Ans : @NamedQuery, @NativeQuery/@Query
+
+how spring boot application will work?
+
+how to stop the tomcat server ?
+
+Instead of using the tomcat server, can we use the weblogic and explain the flow?
+
+Internal working of Hashset
+
+Diff between synchronised HashMap and Concurrent HashMap
+
+Diff between ArrayList and LinkedList, which one is to perform good
+
+what are the Java 17 vulnerabilities and new features of Java 17
+
+
+
+List<Integer> list = Arrays.asList(2,4,6,7,10,4,10,9);
+
+Integer secondHighestNumber = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+
+System.out.println("Second Highest Number : "+secondHighestNumber);
+
+
+==============================================
+
+String input = "programming";  // print the duplicate char count using Java Streams
+
+Set<> set = new Hashset<>();
+
+LinkedHashMap<Character, Long> charCount =  input.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
+
+charCount.entrySet().stream().filter(duplicate -> n.getValue() > 1)).collect(Collectors.toset());
+
+
+output : need to calculate the duplicate character :::: r =2, m =2
+
+
+=================================================
+
+
+public class SingletonTest {
+
+
+private SingletonTest(){};
+
+private static SingletonTest instance = null;
+
+private static SingletonTest getInstance(){
+
+if(instance == null){
+ instance = new SingletonTest();
+}
+return instance;
+}
+
+}
+
+
+==================================================
+LTI Mindtree Interview : 2nd round technical 
+============================================
+
+Java 8 features, Functional Interface with examples, Default methods, what is streams API, Method Reference
+
+Predicate, function, Consumer and Supplier Interface methods with examples
+
+Comparator and comparable interface
+
+what are the Collection in Java, how LinkedList follows the double linked list
+
+what are the annotations in Spring boot
+
+what is @Qualifier, @Autowired, Dependency Injection, @Repository Annotations
+
+what the critical issue you have been faced in your project, Lombok
+
+Java 17 vulnarabilities
+
+what is Volatile Keyword in Java,
+
+what final keyword and where we have applied this keyword.
+
+
+
+
+List<Integer> list = Arrays.asList(3,4,6,8,2);
+
+Integer getValue = list.stream().sorted(Comparator.reversOrder()).skip(1).finsFirst().get();
+
+System.out.println("Getting the second highest value : "+getValue);
+
+
+list.stream().filter(n -> n.length()>1).forEach(System.out::println);
+
+list.stream().filter(x -> x % 4 == 0).collect(Collectors.toList());
+
+=========================================
+
+LTI Mindtree Manager Round :
+=============================
+
+int[] arr1 = {1,2,3,4,5};
+int[] arr2 = {1,3,5,4};
+
+int length1 = arr1.length;
+int length2 = arr2.length;
+
+if(length1==length2){
+System.out.println("Arrays lengths are equal");
+
+}else{
+System.out.println("Arrays lengths are not equal");
+
+}
+
+
+If we have array1 and array2, find the elements are equal or not
+
+If we have array1 and array2, find the array contains same elements or not 
+
+===========================================================================================
+
+
+WIPRO Interview :
+==================
+
+Question: Capitalize First Letters
+Description: Write a RESTful API in Spring Boot that takes a string as input and returns the same string with the first letter of each word capitalized.
+ 
+Requirements:
+ 
+Create a REST controller with an endpoint /capitalize.
+The API should accept a POST request with a JSON body containing the string.
+The API should return a JSON response with the modified string.
+Example:
+ 
+Input: "hello world"
+Output: "Hello World"
+ 
+API Specification
+Endpoint: /capitalize
+ 
+Method: POST
+
+
+
+
+Problem Statement ->
+ 
+int CheckIn [] = {2,12,18,25};
+int CheckOut [] = {10,15,22,29};
+ 
+There are two arrays Checkin and Checkout, these are the dates when user checkin and checkouts from them hotel,
+you have to print the dates on which the hotel is vacant
+ 
+Expected output ->
+ 
+1,10,11,15,16,17,22,23,24,29,30,31
+ 
+ 
+You can use the core java or JAVA 8 concept and solve the problem.
+
+
+
+Problem Statement ->
+ 
+int CheckIn [] = {2,12,18,25};
+int CheckOut [] = {10,15,22,29};
+ 
+There are two arrays Checkin and Checkout, these are the dates when user checkin and checkouts from them hotel,
+you have to print the dates on which the hotel is booked
+ 
+Expected output ->
+ 
+2,3,4,5,6,7,8,9
+ 
+12,13,14
+ 
+18,19,20,21
+ 
+25,26,27,28
+ 
+You can use the core java or JAVA 8 concept and solve the problem.
+
+==================================================================================================
+
+
+	    String str = "abcdxyzefghxyzxyzxyzijkxyz";
+	    
+	    String search = "xyz";
+	    
+	    int count = 0;
+	    
+	    int index = 0 ;
+	    while((index=str.indexOf(search, index)) != -1) {
+	    	count ++;
+	    	index = index + search.length();
+	    	
+	    }
+	    
+	    System.out.println("How many times :: "+count);
+
+========================================================
+
+int arrr [] = {1,2,4,6,5,8,9};
+		
+		int target = 13;
+		int result = -1;
+		
+		for(int i =1; i <= arrr.length-1; i++) {
+			for(int j =1; j <= arrr.length-1 ; j ++) {
+				if(arrr[i]+arrr[j] == target) {
+					result = target;
+					
+				}
+				
+			}
+			
+		}
+		System.out.println("count the any two elements which are equal to 13 ORELSE -1 value :: "+result);
+		
+==========================================================	
+		
+		String name = "saikumarpayasam";
+		
+		StringBuffer sb = new StringBuffer();
+		Map<String, Integer> map = new LinkedHashMap<>();
+		
+		for(int i = 0; i < name.length(); i++) {
+			if(map.containsKey(String.valueOf(name.charAt(i)))) {
+				map.put(String.valueOf(name.charAt(i)), map.get(String.valueOf(name.charAt(i)))+1);
+				sb.append(map.get(String.valueOf(name.charAt(i))));
+			}else {
+				map.put(String.valueOf(name.charAt(i)),1);
+				sb.append(String.valueOf(name.charAt(i)));
+			}
+		
+		}
+		System.out.println("Character frequency :: "+sb); //  saikum2rp3y4252
+
+===========================================================
+
+		        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+		        int k = 3; // Number of positions to rotate
+
+		        rotateArray(arr, k);
+
+		        // Print the rotated array
+		        for (int i : arr) {
+		            System.out.print(i + " ");
+		        }
+		    }
+
+		    public static void rotateArray(int[] arr, int k) {
+		        int n = arr.length;
+		        k = k % n; // In case k is greater than array length
+
+		        reverseArray(arr, 0, n - 1);
+		        reverseArray(arr, 0, k - 1);
+		        reverseArray(arr, k, n - 1);
+		    }
+
+		    public static void reverseArray(int[] arr, int start, int end) {
+		        while (start < end) {
+		            int temp = arr[start];
+		            arr[start] = arr[end];
+		            arr[end] = temp;
+		            start++;
+		            end--;
+		        }
+		
+===============================================
+
+How do you handle the exeception ?
+
+@RestControllerAdvice
+public class NtvControllerAdvice extends ResponseEntityControllerAdvice {
+
+
+@ExceptionHandler(BadRequestException.class)
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+
+public @ResponseBody DashboardResponse handleInvalidInput(HttpServletRequest request, BadRequestException ex){
+
+DashboardResponse errorResponse = new DashboardResponse();
+errorResponse.setDescription(NtvConstants.INVALID_INPUT);
+errorResponse.setStatus(NtvConstants.ERROR);
+errorResponse.setMessage(ex.getMessage());
+
+return errorResponse;
+}
+
+
+
+@ExeceptionHandler(NoDataFoundException.class)
+@ResponseStatus(HttpStatus.Ok)
+public @ResponseBody DashboardResponse handleNodataFoundException(HttpServletRequest request, NoDataFoundException ex){
+
+DashboardResponse dashboardResponse = new DashboardResponse();
+dashboardResponse.setDescription(NtvConstants.NO_DATA_FOUND);
+dashboardResponse.setStatus(NtvConstants.ERROR);
+dashboardResponse.setMessage(ex.getMessage());
+
+}
+
+}
+
+====================================================
+
+Firstly we have to add the dependency If we are going to perform the Testing.
+
+spring-boot-starter-test   ====> By defaultly it was added in the pom.xml 
+spring-boot-starter-data-jpa   ====> If we are going to work with JPA
+mockito-core
+
+JUnit Controller Class :
+========================
+
+@RunWith(MockitoJUnitRunner.class)
+@WebMvcTest(UserController.class)
+public class GraniteControllerTest {
+
+@InjectMocks
+GraniteController graniteController;
+
+@Autowired
+MockMvc mockMvc;
+
+@MockBean
+private UserRepository userRepository;
+
+@Mock
+GraniteResponse graniteResponse;
+
+here we can have the multiple @Mock classes
+
+
+@Before
+public void init(){
+
+}
+
+
+@Test
+public void batchController() throws Exception {
+	Mockito.when().thenReturn(responseEntity);
+}
+
+
+@Test
+public void testGranite() throws Exception {
+	mockMvc.perform(get("/batch/dalta/test")).andExpect(content().string("SUCCESS"));
+}
+
+
+JUnit Service Class :
+======================
+
+@Runwith(MockitoJUnitRunner.class)
+public class GraniteServiceTest {
+
+@InjectMocks
+GraniteService graniteService;
+
+
+@Mock
+RestTemplate restTemplate;
+
+@Mock
+ObjectMapper objectMapper;
+
+@Mock
+TimeStamp timeStamp;
+
+@Mock
+ResponseEntity<HttpEntity> responseEntity;
+
+@Mock
+HttpEntity<Object> entity;
+
+private static Logger log = LoggerFactory.getLogger(GraniteService.class)
+
+
+@Test
+public void getLatestPolledEntityTest() throws IntenalServerErrorException, ParseException {
+
+	Mockito.when().thenReturn(responseEntity);
+
+}
+
+
+JUnit Repository Class :
+=========================
+
+our application is integrated with the JPA. So below is the example for that 
+
+(public interface UserRepository extends JpaRepository<User, Long> {
+    // Custom query methods if needed
+})
+
+
+@DataJPATest
+public class UserRepositoryTest {
+
+@Autowired
+private UserRepository userRepository;
+
+@Autowired
+private TestEntityManager entityManager;
+
+@Test
+    public void whenFindById_thenReturnUser() {
+        // given
+        User user = new User("John", "Doe");
+        entityManager.persistAndFlush(user);
+
+        // when
+        User found = userRepository.findById(user.getId()).orElse(null);
+
+        // then
+        assertThat(found.getName()).isEqualTo(user.getName());
+
+}
+=======================================================
+
+OneToMany and ManyToOne Mapping in Example :
+
+In JPA @OneToMany and @ManyToOne are used to define relationships between entities
+
+OneToMany : One parent entity can have multiple child entities.
+The Parent entity owns the relationship.
+
+@Entity
+public class University{
+
+@Id
+private Long id;
+private String name;
+
+@OneToMany(mappedBy = "university")
+private List<Department> department;
+}
+
+@Entity
+public class Department{
+@Id
+private Long id;
+private String name;
+
+@ManyToOne
+@JoinColumn(name = "university_id")
+private University university;
+
+}
+
+In this example : A University can have multiple Departments.
+Department entity has a foreign key (university_id) referencing the university entity.
+
+ManyToOne : Multiple child entities can have one parent entity.
+The child entity owns the relationship.
+
+@Entity
+public class Department {
+@Id
+private Long id;
+private String name ;
+
+@ManyToOne
+@JoinColumn(name = "university_id")
+private University university;
+
+}
+
+
+@Entity
+public class University{
+@Id
+private Long id;
+private String name;
+@OneToMany(mappedBy="university")
+private List<Department> department;
+}
+
+
+In this example : Multiple Departments can belong to one University
+The Department entity has foreign key(university_id) referencing the University entity.
+
+Note :
+
+mappedBy in @OneToMany specified the field in the child entity that owns the relationship.
+@JoinColumn in @ManyToOne specifies the foreign key column in the child entity.
+
+=====================================================
+
+What is tolerance in microservices:
+
+In microservices architecture, tolerance refers to the ability of a system to continue functioning and providing service even when one or more of its components or dependencies are failing or responding slowly.
+
+1. Fault Tolerance
+2. Performance Tolerance
+3. Security Tolerance
+
+Tolerance is achieved through various strategies, including.
+
+1. Redundancy
+2. Load Balancing
+3. Circuit Breakers
+4. Fallbacks
+5. Bulkheads
+6. Retry Mechanisms
+7. Timeouts
+
+===============================================
+
+How can we implement the authentication for spring boot applications?
+
+we can implement the authentication in multiple ways likes
+
+1. Spring Security
+2. JWT (Json Web Token)
+3. OAuth 2.0
+4. Custom Authentication
+
+what is Authentication : Authentication is the process of verifying the identify of a user, device or system. It ensures that only authorized entities access a protected resource, application or system.
+
+Authentication typically involves :
+
+1. Identification : Providing identity information (eg., username)
+2. Verification : Confirming the identity through credentials (e.g., Password, biometrics) 
+
+Spring Security :
+
+Spring security is popular framework for securing the Java-based applications. It provides authentication, authorization and protection against common web attacks.
+
+Spring Boot Security Configuration :
+
+To Provide Spring Security authentication in a Spring boot application :
+
+1. Add Dependencies in your pom.xml file 
+
+spring-boot-starter-web
+spring-boot-starter-security
+
+2. Configure Security
+
+Create a configuration class that extends WebSecurityConfigurerAdapter
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+@Override
+protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+	auth.inMemoryAuthentication()
+		.withUser("user")
+		.password(passwordEncoder().encoder("password"))
+		.roles("USER");
+}
+
+@Override
+protected void configure(HttpSecurity http) throws Exception{
+	http.authorizeRequests()
+		.anyRequest()
+		.authenticated()
+		.and()
+		formLogin();
+}
+
+@Bean
+public PasswordEncoder passwordEncoder(){
+	return new BCryptPasswordEncoder();
+}
+
+}
+
+3. Implement Authentication
+
+Create a login page and handle authentication.
+
+Login page (HTML) 
+
+<form action="/login" method="post">
+	<label>Username:</label>
+	<input type="text" name="username"/>
+	<br/>
+	<label>Password:</label>
+	<input type="text" name="password"/>
+    <br/>
+	<input type="submit" value="Login"/>
+</form>
+
+Login Controller (JAVA)
+
+@Controller
+public class LoginController{
+
+	@GetMapping("/login")
+	public String login(){
+		return "login";
+	}
+	
+	@PostMapping("/login")
+	public String login(@RequestParam("username") String username, @RequestParam("password") String password){
+		// Spring Security handles authentication
+		return "redirect:/home";
+	}
+
+
+}
+
+===================================================
+
+Multithreading Example :
+
+
+1. Simple Thread Creation:
+
+public class SimpleThread{
+public static void main(String[] args){
+
+Thread thread = new Thread(() -> {sop("Hello from new Thread!");});
+
+thread.start();
+}
+}
+
+2. Runnabel Interface :
+
+public class RunnableDemo{
+
+public static void main(String[] args){
+
+Runnable runnable = () -> {sop("Hello from new Runnable Thread");});
+
+Thread thread = new Thread(runnable);
+
+thread.start();
+}
+}
+
+3. Executor Framework :
+
+ExecutorService executorService = Executors.newFixedThreadPool(5);
+
+for(int i =0; i < =10; i ++){
+executorService.submit(() -> {sop("Task Executed by :: "+Thread.currentThread().getName());});
+}
+
+executorService.shutdown();
+
+}
+}
+
+================================================================================================
+
+
+
+Arrays.asList(2,3,5,7,3,1,8,9) Find the second highest number without using the Collections and streams
+
+
+How to generate the war file in the spring boot application and deploy it in the tomcat server, how will do generate in local
+
+what is try with resourse
+
+diff between Stub and mock
+
+can we create the mock object of static and how will be writing the test cases in Junit
+
+what is outer join and streaming databased (apache kafka)
+
+diff map and flatmap
+
+features of Java 8 and Predicate 
+
+diff sleep() and wait(), what is executorservice in multi threading
+
+OneToMany and ManyToOne 
+
+how do we write the SQL query in JPA(Native Query and )
+
+cache mechanism in spring boot
+
+what are the http methods
+
+what are the Idemponents and non Idemponents and why Post is Idemponents
+
+what is life cycle of bean
+
+what is singleton design pattern, what is multi locking in that
+
+12 factor in microservices
+
+what is circuit breaker and Fault Tolerance
+
+how do we handle the exceptions in spring boot
+
+what are the design patterns have you been used 
+
+
+==================
+
+What is Object and it's methods and what is String Constant Pool
+
+what is reflection API
+
+can we create the private constructors and why
+
+what is abstraction, can we create the objcet for abstract class and interface.
+
+what is executor service
+
+what is treeMap
+
+what is ExceptionAdvice
+
+what is auto boxing and unboxing 
+
+Stack and Queue
+
+CompletabeFeature
+
+Junit methods
+
+Apache Kafka implementation
+
+Need to check the Collection classes and methods and Functionality
+
+what is Profile in Spring Boot
+
+Array and String methods
+
+Checked Exception and Unchecked Exception
+
+Multithreading concepts
+
+difference between Auto wiring and Dependency Injection
+
+is HashMap can be synchronized ?
+
+Convert the Roman Numbers to Numbers using Java
+
+====================================================================================
+
+TCS Interview :
+===============
+int arr[] = {2,5,7,9,10,23,18,82};  // Convert list of Arrays integers to streams
+
+Arrays.stream(arr).boxed().sorted().collect(Collectors.toList());
+
+List<Integer> list = Arrays.asList(2,5,7,9,10,23,18,82);
+
+List<Integer> sortedList = list.stream().sorted().collect(Collectors.toList());
+
+System.out.println("Converted sorted arrays :: "+sortedList);
+====================
+/getapi/getdata/id=2
+
+@RestController
+@RequestMapping("/getapi")
+
+public class MyRestController{
+
+@Autowired
+private Employeerepository employeeRepository;
+
+@GetMapping("/getdata")
+public EntityResponse<String> updateData(@PathVariable("{id}") Lond id){
+employeeRepository.getId();
+
+return responseEntiry.ok("Successfully updated");
+
+}
+}
+==================
+Write a program for OneToMany and ManyToOne :
+
+Book 
+author   parent 
+
+
+@Enity
+@Table(name="author")
+public class Author{
+
+@id
+private Lond id;
+private name name;
+
+@OneToMany(mapping="Author_id")
+public List<Book> book;
+
+}
+============================================
+
+Maximum Number
+
+To find the second highest number in List of Integer
+
+Minimum Number
+
+Sorted Order(Ascending Order)
+
+Unsorted Order(Descending Order)
+
+To Remove the duplicate values in the LIST of Integer(Using Streams, Set)
+
+To Find the duplicate values in List of Integer(Using Set)
+
+To find the sum of each element and return the sum (Using reduce())
+
+To multiply the each element and return the sum (Using reduce())
+
+Even Numbers
+
+Odd Numbers
+
+Sort the Even and Odd numbers in a Interger List and output will be same List
+
+If we have the list of Integer values and multiply each values and skip the each value when we are multiplying with other values
+
+Sorting the HashMap by using keys
+
+In a given array, write a program in readonly mode or unmodify 
+
+To find the highest Salary based on department in employee class
+
+To find the Highest Salary in employee class
+
+To find the Lowest Salary in employee class
+
+To find the second highest Salary in employee class
+
+To find the Employee Percentage/salary > 70 and based on the ID
+
+Sorted employes based on name, age and salary
+
+Count the frequency in a List of Integer values
+
+Find the frequency of each char in a string
+
+Word Frequency Count in a given String array
+
+Print the number between 1 to 100 using streams.
+
+
+======================================================  25 Programs
+Find the first non-repeating Character in a Given String
+
+Find the Sum of non-repeating elements/Characters
+
+Remove Duplicate character in a String using streams.
+
+String myStr = "Hello, World"; Convert the String characters from uppercase to lowercase vise versa
+
+Find the String length > 3 by using streams.
+
+Equals() and == Operator in Java String
+
+Write a program Factorial, Fibonacci, Palindrome, Anagram, Prime Number or Not,  
+
+write a Singleton Program, Functional Interface and Lambda Programs
+
+
+To find the particular word index in a given Stirng.
+String s = "thebarfoothebarfoofoobarman";  String[] str1 = {"barfoo","foobar"};       // output = [0,9]
+
+To count the number of characters and print in ascending order(sorting)
+String input = "aaaabbbcddaac";          // output : a4b3c1d2a2c1
+
+String s = "{([])}";
+Check the input Stirng, the brackets are properly closed or not(Check Balanced Paranthesis)
+
+Calculate the sum of all non-zero elements in the 2D arrays. EX : int[][] numbers = {{0,0,0,0,5},{0,1,1,1,0}, {2,0,0,0,0}}; 
+
+Reverse a String using with/without streams
+
+String input = "hello world"; Capitalise the first character in the each word.
+
+How to find the salary is equal to 70000 in a employee class using streams.
+
+Swap the numbers with/without using third variable
+
+Write a ExecutorService Program
+
+===================================================================================
+
+theoretical : not practical
+
+elaborate : to give more details.
+
+Virtusa :
+===========
+
+which type of data type will return the consumer and supplier in Java 8
+
+can you elaborate the map()
+
+what are the Functional Interfaces in Java 8 and before Java 8
+
+what are the design pattern, explain the saga and circuit breaker D P
+
+when can we use the rest api methods and explain
+
+diff between controller and restcontroller
+
+java 8 features and Functional Interfaces and Lambda Exp
+
+If we have multiple employees and which is having the same employee id and need to sort the names based on the id using Java 8
+
+
+
+Rate Limiting in Microservices :
+
+Rate limiting can be used to prevent this by controlling the number of requests a service can send to another service within a specific timeframe
+
+
+
+LtiMindtree :
+===================
+Client Interview : 11-Nov-2024 night 10:00 PM to 11:00 PM
+
+Citi Bank : Sanjiv Kumar 
+
+
+Explain the Spring Boot Application where it will start
+
+What is the main purpose of your project(UTS Project)
+
+Diff between Spring and Springboot 
+
+How do you convert the Oracle data base details (Query) into the Json format
+
+How do you show the database details in the response
+
+Explain the List, set and Map and why
+
+what is Synchronous and Asynchronous
+
+Explain the Component, Repository, Service and Controller
+
+What is the IoC Container in Spring and how many types
+
+What is artifact id
+
+Are we sending the Jar or War file to client
+
+How to run the War file the Eclipse IDE
+
+What is Eureka Server and explain briefly.
+
+What is Microservices
+
+If we have any issue in application, how do we check that which service is getting issue(failed)
+
+What are the Spring Components ? Spring Core, Spring JDBC, Spring Data JPA, Spring AOP and Spring Web
+
+Diff between JDBC and Spring Data
+
+Is your application is Web application or how it was?
+
+what is Stream API and Explain briefly.
+
+What is RequestMapping and Actuator
+
+What is ResponseEntity and how do we provide that?
+
+Where do you deploy the application 
+
+Which database are you using and how/where do you configure database details in spring boot 
+
+is it same database credentials were used in the dev and test and prod server ?
+
+Are you working with interface/UI ? Ans : No (Already developed interface)
+
+what are the projects have you done in the past companies and who are the clients
+
+what is hartford client will do and what was the requirement(peoject usages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

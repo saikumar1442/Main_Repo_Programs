@@ -1,0 +1,410 @@
+DXC Techonnology :
+-----------------------------------
+Employee Mail : sp289@dxc.com
+Short ID : sp289
+Employee ID : 11586751
+
+Date Of Joining : 12-NOV-2019
+Date of Leaving : 08-Mar-2023
+
+PF Number  : PY/BOM/0013015/000/1065772
+UAN Number : 101542152955
+
+Address: 39/40, DGS-Campus Phase-1, HP Avenue, Hosur Rd, opp. Infosys, Electronic City, Bengaluru, Karnataka 560100
+
+COGNIZANT :
+---------------------
+Employee Mail : saikumar.payasam@cognizant.com
+Short ID : 2274175
+Employee ID : 2274175
+
+Date Of Joining : 13-Mar-2023
+Date of Leaving : 21-Nov-2024
+
+PF Number  : TN/MAS/0031309/000/2066298
+
+
+Bank Name  : HDFC Bank
+Account No : 50100320347259
+Mobile No  : 8688547032/9392421442
+
+Permanent Address : 1/81-A, Apppayyarajupet (Vill & Post), Pullampet (M).
+
+Banaglore Present Address : 9th main road, PR Layout, Chandra Layout, Marathahalli, Bengaluru, Karnataka 560037
+
+Bagmane Solarium City - Neon, Kundalahalli Colony, Brookefield, Bangalore, Karnataka 560037
+
+Manyata Embassy Business Park, Mahogany(F3), Hebbal Outer Ring Road,Rachenahalli, Bangalore, 560045
+
+
+COGNIZANT : 
+
+Cognizant Technology Solutions India Pvt. Ltd. 
+
+Date of Joining : 13-Mar-2023
+
+Employee ID : 2274175@cognizant.com/payasam.saikumar@cognizant.com
+Password    : Hanuman@99482
+Pincode 	: 994825
+
+
+Home Manager : Srinivasan, Sethuraman  Mob No : 7824814076  srinivasan.sethuraman@cognizant.com 
+
+Senior Manager : Thamanan Ramaian, Senthilvel  Mob No : 9384731377  senthilvel.thamananramaian@cognizant.com, Emp ID 461180
+
+Project Manager : S,Basheer Ahmed    basheerahmed.s@cognizant.com
+
+Home Manager : narendra.chaudhary@cognizant.com Mob No : 7259579955 Emp Id : 582964
+
+Payasam Sai Kumar (2274175)
+
+Associate - Projects, AIA-ModernDataEngineering
+
+COGNIZANT HR : natasha.castelino@cognizant.com   phone Number : 441-251
+
+Dear Sender, Thank you for your email, I am out of office today.You can reach me at 7259579955 for anything urgent.   For any Moody's account related queries please reach out to Vaidhy and for Goldman Sachs please reach out to Kumar.Regards Narendra Pratap Chaudhary
+
+================================
+Eclipse Shortcuts :			
+=====================
+F3           	 = Open Declaration
+CTRL + 1         = import the name, create the class 
+CTRL + E         = Open Editor
+CTRL + N     	 = Create a new Class in Eclipse
+CTRL + S       	 = This will save only one class
+CTRL + SHIFT + S = This will save all the classes in the eclipse which we modified 
+CTRL + SHIFT + T = Open Type (we can search the particular type of class)
+CTRL + /         = To add the comments
+CTRL + O         = Open declarations
+CTRl + SHIFT + O = To Remove the unused imports/add the imports
+CTRL + W         = We can close the particular class which we have opened in eclipse
+CTRL + SHIFT + E = We can select which files we want to close
+ALT + SHIFT + R  = Rename the file name
+CTRL + SHIFT + F4 = Close all Opened Editors
+CTRL + SHIFT + I = while doing the debug, below command will tell us the output of selected data.
+ALT + SHIFT + L  = extract to Local Variable
+ALT + SHIFT + M  = extract to Method
+ALT + SHIFT + S  = This command will show the Getters/Setters
+
+
+=========================================
+
+
+TSC Team : To move from one project to another project, this team will be available on Be cognizant
+
+
+
+My Name is Sai Kumar and Previously I worked with DXC Technology and I am having 3 years of 
+Experiance with Java and Oracle ADF Technologies and (Frameworks like Hibernate, JPA, Spring, Spring Boot) and
+Previously I was working on Dealer Management System Project in that 
+My Rolls and Responsibilities are 
+	Getting Requirements and analysis.
+	Worked on developing and delivery of the ADF forms and reports.
+	Used Reporting Tools like RDF files to Generate the PDF Reports.
+	Providing Technical Support to Co-Workers.
+
+
+One Cognizant portal : Search
+1. Id Card
+2. GSD : For any request 
+3. Attendance : 2 apps
+   a. Tru Time  b. submit Timesheet
+4. To Apply Leave in portal : Leave -> Apply Leave
+5. To check the holidays : Holiday
+6. Project Assigmnet and Manager details
+   view -> View Assignment (expenses report)
+7. Manager name : S,Basheer Ahmed --> manager Id :   248020
+8. referral 
+9. TSC : To move from one project to another project.
+10. HCM : employee self service -> Personal Information. To update the bank info & Personal info
+11. Medi Assist (will get the mail between 10 to 12 days after join then we need to fill the details.)
+12. To Update the nominee/Personal Info -> Associate 360
+13. to download the payslips --> mypay (Same password which we had reset)
+14.To Add the Goals (half-yearly)
+   1c -> Go Perform (Rating 1 is lowest and 5 is the highest)
+15. CTS will create the PF number seperatly and UAN Number is same.
+16. Appraisal Life cycle is Jan to Dec'
+17. For Unmarried persons EPF is Mandatory. 
+
+TMP -> Talent Market Place in 1C...... Need to update the skills in the TMP 
+
+
+Hi senthil, good morning 
+
+I am very much interested in working on java technology and which is not used in this current project...
+
+is there any java projects going on in this.
+
+Already I have involved in the KT sessions, so I want to go with Java only
+
+as discussed over the call
+
+ETL project 
+
+
+Always we need to install eclipse software inside the C drive, other wise it should not work.
+
+After that we need to increase the eclipse memory size in eclipse.ini file 
+
+-Xms512m
+-Xmx2048m 
+
+
+Important Reminder: Complete your Self Evaluation
+
+Goals 2023 1st half :
+
+1. Overview of CDIT Tool (Usage Analyzer)
+
+Got a KT on CDIT Tool like Usage Analyzer (Engineering/Re-arcitecting).
+created the meta data connection for Schema name
+we have to upload the excel file to generted the output and It contains the Data provider and data consumer.
+
+Improved the KT trainings
+
+Note : Got training on Usage Analyzer and created the meta data connection for new schema. so generating the output based on the input excel file
+
+
+2. Overview of CDIT Tool (Tool convertor)  
+
+Got a Kt on CDIT Tool like Tool Converter.
+Need to select the Source ETL Tool and Target ETL Tool as input.
+We have to upload ETL code as item file to generate the output as connector xml.
+
+Improved the KT trainings
+
+Note : Involving the Talend Reverse Engineering applications enhancement, based on the requirement.
+
+
+3. Delivery Management
+
+Developing and Enhancing the application based on the requirement.
+Improvement in team knowledge spread (number of knowledge sessions within team / issue handling during absences)
+Improved team’s technical skills
+
+Improved Development/Enhancing skills.
+
+Note : Developing the application, based on the task which I had been assigned and also improving the skills.
+
+4.Time Reporting Compliance
+
+On-time Cognizant & Customer Timesheet submission
+Correct and prompt reporting of status/effort reporting on daily work
+Timely data provisioning & No deviation on reported work data
+
+100% Timesheet Compliance. 
+
+Note : On daily basis, I am updating the TruTime and on weekly basis, I am updating the Customer Time Sheet in 1C portal.
+
+5. Knowledge contribution
+
+Training compliance: Completed Cognizant Trainings.
+Number of Technical Training sessions provided to other team members.
+No Overdue courses [Cognizant Mandatory Courses]
+1 Technical/Functional Internal Training session per Quarter 
+Participation in on-boarding KT for new comers [Planned Recorded sessions]
+
+Application / Job knowledge improvement.
+
+Note : I am completing the training sessions on time and there are no overdue courses.
+
+Goals 2023 2nd half :
+
+1. Talend Reverse Engineering
+
+Understanding the requirement and doing the changes in code for Talend jobs.
+Analysing the internal components of Bayer jobs.
+
+Delivering on time.
+
+2. Refactoring (ETL Mapping)
+
+ETL mapping can reduce the workload of data analytics operations. By using ETL, delegate much of the time-consuming workload to the software. The Refactor table identifies the refactoring that have been started. A code-refactoring exercise will generally be self-contained within a single application
+
+Improved ETL Mapping Concepts
+
+Note : ETL mapping allows data analysts to spend less time extracting,
+
+
+Key Role Outcomes :
+
+1. Team Work :
+
+I enjoy working with others, and I know how to communicate well, actively listen to my associates’ opinions, and mediate any conflicts that arise. As an extrovert, I’m really energized by team dynamics and excited as I witness the progress we make towards our goals.
+
+2. Delivery Excellence
+
+Delivering the projects on-time and that value is effectively delivered to customers.
+
+3. Stakeholder Satisfaction
+
+There are no escalations from the client. We are giving the project in on time.
+
+4. Operational Excellence
+
+I am putting the full efforts on the task which has been provided.
+
+5. Adherence to Coding Standards
+
+Wrote understandable and effective code.
+Helper methods were used to keep the code short and to the point.
+Refrained from using any hard coding besides constants.
+To avoid any loss and to facilitate team collaboration, I regularly save and upload my code to Github.
+
+============
+
+
+Goals 2024 First half :
+
+
+
+1. Talend Reverse Engineering
+
+Understanding the requirements and doing the changes in code for Talend jobs.
+Analysing the internal components of Talend jobs.
+Debuggin the Talend application for step step execution.
+
+Delivering on time.
+
+Note : Got the inputs from project team and analysing the requirement.
+
+2. Talend Cloud Trail Version
+
+By using CDIT VM, we are able to access the talend studio for free trail version with Joblets. 
+Setting up the Registration process and renewing the Login Credentials.
+
+Improved Joblets Functionality
+
+Note : Talend Cloud Trail Version allow us to show the joblets.
+
+3. Delivery Management
+
+Developing and Enhancing the application based on the requirement.
+Improvement in team knowledge spread (number of knowledge sessions within team / issue handling during absences)
+Improved team’s technical skills
+
+Improved Development/Enhancing skills.
+
+Note : Developing the application, based on the task which I had been assigned and also improving the skills.
+
+4.Time Reporting Compliance
+
+On-time Cognizant & Customer Timesheet submission
+Correct and prompt reporting of status/effort reporting on daily work
+Timely data provisioning & No deviation on reported work data
+
+100% Timesheet Compliance. 
+
+Note : On daily basis, I am updating the TruTime and on weekly basis, I am updating the Customer Time Sheet in 1C portal.
+
+5. Knowledge contribution
+
+Training compliance: Completed Cognizant Trainings.
+Number of Technical Training sessions provided to other team members.
+No Overdue courses [Cognizant Mandatory Courses]
+1 Technical/Functional Internal Training session per Quarter 
+Participation in on-boarding KT for new comers [Planned Recorded sessions]
+
+Application / Job knowledge improvement.
+
+Note : I am completing the training sessions on time and there are no overdue courses.
+
+
+Key Role Outcomes :
+
+1. Team Work :
+
+I enjoy working with others, and I know how to communicate well, actively listen to my associates’ opinions, and mediate any conflicts that arise. As an extrovert, I’m really energized by team dynamics and excited as I witness the progress we make towards our goals.
+
+2. Delivery Excellence
+
+Delivering the projects on-time and that value is effectively delivered to customers.
+
+3. Stakeholder Satisfaction
+
+There are no escalations from the client. We are giving the project in on time.
+
+4. Operational Excellence
+
+I am putting the full efforts on the task which has been provided.
+
+5. Adherence to Coding Standards
+
+Wrote understandable and effective code.
+Helper methods were used to keep the code short and to the point.
+Refrained from using any hard coding besides constants.
+To avoid any loss and to facilitate team collaboration, I regularly save and upload my code to Github.
+
+=========================================
+
+Firstly I have installed the JDK 8 version after that lead told me to install the JDK 11.
+what needs to do :
+
+1. we can keep the JDK 8 version in seperate folder.
+2. we can stop the java related files in the task manager.
+3. we need to delete the oracle folder under : C:\Program Files (x86)\Common Files or C:\Program Files
+4. we need to set the path in environmental Variable :
+either it should be in User variables or system variables :
+PATH , C:\Program Files\Java\jdk11\bin  --- User variables
+JAVA_HOME , C:\Program Files\Java\jdk11 or Path : %JAVA_HOME%\bin  or C:\Program Files\Java\jdk11\bin --- System Variable
+
+To check the java version in command prompt : java -version
+
+
+Out of office
+Dear Sender,  I am currently OOO. Please expect some delay in my responce. Regards, Saikumar
+
+
+After Joining to Office :
+===========================
+
+In KT session : AIA CDIT Engineer Migration
+
+what is the project and who is the client
+
+what are the softwares are required in this project --- 
+
+what are and all we have to involve in this project
+
+which technologies are we using in this project.
+
+GIT(are we maintaining the branches),Eclipse JIRA(), SQL    -- not using Winscp and CISCO VPN
+
+
+Cognizant Data and Intelligence Toolkit -- CDIT
+
+
+CDIT : KT demo on 12-04-2023 , Anushree
+
+Need to install the below Software and tools :
+
+EclipseOxygen version M2 - For Eclipse Tool
+
+jdk-8u291-windows-x64 - For Java Software
+
+for git you can just login through this link
+
+https://github.com/Cognizant-Modern-Decisioning-Offerings/IDW2.0.git
+
+For java, eclipse and GIT we need to raise a request in the 1C(GSD), firstly we need software request id, for this they have created a ticket.
+
+
+Oracle db : not require to install in the local machine
+
+Enhancement : when ever we will get the issues then only we need to involve to fix the issue
+
+
+1 sprint = 3 weeks (some development), they will be informing to us if we got any enhancement(if someone is not handled then we need to do the enhancement)
+
+I need to inform to senthil to add the CDIT team (mails)
+
+I dont have the access for JIRA : need to ask for senthil
+
+All the environments we are doing in the same like dev, test
+
+
+Hi Rupa,
+
+I need to take care of my family and I can’t travel, I have a dependency with them.
+
+Kindly consider the above concern.

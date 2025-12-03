@@ -1,0 +1,389 @@
+
+
+Core Java Interview Questions : 
+===============================
+Diff between String Buffer and String Builder
+
+Diff between HashMap and LinkedHashMap and TreeMap 
+
+what is concurrentHashMap
+
+Can you write one example for TreeMap 
+
+Write a program for Immutable class 
+
+Differnce between Runnable and Callable 
+
+what is Functional Interface and what is the usage and examples
+
+If we have a multiple abstract methods in an interface, so can we write @FunctionalInterface on top of class. Ans : No 
+
+what is default method interface and usage
+
+what is Optional Class
+
+what are the Java 8 features
+
+Diff between JDBC and Hibernate and which one is faster and why
+
+Diff between Collections and Streams
+
+diff between comparable and comparator Interface
+
+Java 8 features
+
+what is Functional Interface and Give an example of Functional Interface
+
+diff between join() and yield() in multi threading
+
+how do we create the multi threading
+
+Singleton design pattern
+
+what is Immutable class and whar are the benefits of Immutable
+
+what is sorting and types
+
+Abstract and Interface
+
+what are the benefits of default and static interface 
+
+Optional Class in Java8
+
+what is Functional Interface ?
+
+	(already we have the Abstraction in Java, then why it came to new feature in Java 8, If we have the Interface and abstraction)
+
+what is synchronized in multithreading.
+
+diff between Runnable and callable
+
+what is Immutable and example ? why String is Immutable?
+
+Prog : If we have the String name as same name, what will happen 
+
+		String name = "sarath";
+		
+		name = "sai";
+		
+		System.out.println("n3 value : "+name);  // output : sai , because it is a StringConstantPool(SCP)
+		
+how it is working intern() in String ?
+
+how to move the SCP to heap memory in java?
+
+what is the diff between Concatination and + operator ?
+
+Diff between Collection and Collections
+
+internal working of Set and Map?
+
+why Set Interface is not allowing the duplicates?
+
+Hashset and HashMap default value?
+
+Diff between HashMap and hashtable?
+
+Why hashmap is not synchronized and ConcurrentHashMap is synchronized ?
+
+what is weakhashmap?
+
+Explain the try, catch, throws and throw keywords in java? try and throw resources
+
+diff between throws and throw key and real time example
+
+Diff between Java 7 and Java 8
+
+If we call destroy method, what will happens and how it will work
+
+what is Optional Class in Java 8 and real time example
+
+what is Marker Interface and why Marker Interface?
+
+what is Serlets and Life cycle of servelts
+
+Intermediate and Terminal Operations in Streams in Java 8
+
+Java 8 features -> why default interface ?
+ 
+how do you  solve the multiple inheritance issue ?
+ 
+what is abstraction ? real time example
+ 
+what is singetlon and why ?
+ 
+Asked program to write implement the functional interface and streams to sort the list and return it based on employee name
+ 
+Hashmap and concurrent hashmap difference
+
+How hashmap works internally 
+
+synchorized block
+
+singleton class
+
+how to convert List to synchronized list 
+
+difference between Primitive Types and non Primitive Types
+
+what is string literal pool memory
+
+what is set and list 
+
+difference bw comparable and comparator 
+
+What is a collection in Java?
+
+Disadvantages(Drawbacks) of Immutable, what are the mutable and Immutable,
+
+what Option Class, what Functional Interface Examples, Java 8 Features
+
+Why String is Immutable? what is the difference between String Buffer and String Builder?
+
+Explain the Static block ?
+
+If we have a static method and Main mehtod, so which one will execute the first ?
+
+Find the duplicate elements in the list of array by using the streams ?
+
+Java 8 Features and what is the latest Jdk version, do we have it now?
+
+Stream API types and it methods.
+
+What is Functional Interface and Examples
+
+What is parallel Stream.
+
+If we have a 1000 objects and which one to use in collection either List, Set and Map.
+
+What is ConcurrentHashMap.
+
+what is multithreading and ExecutorService in Multi-threading.
+
+what is diff between encapsulation and abstraction and OOps features.
+
+use of this keyword in java
+
+can static can be overridden, 
+
+constructors, when its load 
+
+Integer default value
+
+this keyword can refer to static members
+
+diff types of inheritance in java
+
+what is the super keyword in java
+
+
+ 
+ 
+
+
+
+
+
+
+
+Spring and Spring Boot:
+=======================
+
+how the spring boot application will work internally 
+
+where do you deploy your application
+
+what is endpoint and how can we call the endpoint in spring boot with explaination 
+
+where can we write the @RequestBody Annotation in Springboot ? is it on top of the method or parameter. Ans : Parameter
+
+@RequestMapping, we can write on top of the Class and @GetMapping we can write it on top of the method.
+
+@Query and @NamedQuery Annotations in JPA.
+
+Spring Boot Security
+
+@Component Annotation in Spring
+
+what is @Profile Annotation, when can we use this
+
+what is @Qualifier Annotation, when can we use this
+
+Diff between @Controller and @RestController
+
+Can you explain, how the SpringBootApplication will work internally
+
+which one are you using to test the json data : Postman/ Swagger
+
+what is swagger and why are we using the swagger.
+
+how do we change from Json type to xml type in spring boot
+
+what is the default port number for https in tomcat server
+
+how to handle the validations and exceptions in spring boot
+
+Spring Batch and Spring Security.
+
+how can we increase the memory size in production server in deployment.
+
+how do you handle the exceptions in spring boot
+
+in JPA, how will you do the transaction and rollback and what are the steps we should follow
+
+how do we check the production logs in spring boot application.
+
+where you will deploy your spring boot application. I told winscp but the answer is spluck
+
+what is Webclient? 
+
+what we can acheive the @RequestBody
+
+how do you write the Junit test cases for Controller, Service and DAO
+
+how to write the Junit test cases in spring boot applications
+
+Diff between SOAP and REST? for caching purpose which one can we use 
+
+Internal working of dependency Injection and autowiring ? what it will do it in backend.
+
+what are the Layers/Classes you have been worked in your project?
+
+what is Spring and why we need Spring (Already we have Servlets, Structs) ?
+
+Git Pipeline and Jenkins Pipeline
+
+ExceptionHandling in spring boot?
+  
+Real time exceptions in thorw and throws in java?
+
+what @Component Annotation will do
+
+If the object is autowired, what is the scope of the object ?
+
+Scope of the beans?
+
+What is Spring Bean?
+
+what is POST and PUT in REST API? can we use the PUT method instead of POST?
+
+explain spring boot -> where it start what happens inside when application started( it took me 20 minutes to explain ) they asked many questions based on my explanation
+ 
+most used spring annotation and why ?
+ 
+Mapping and Joins in SQL
+
+how to solve n+1 problem in hibernate and what is Mapping and Lazy and eager in hibernate
+
+Application.properties, how to read the values in springboot? @Value or the Environment object provided by Spring.
+
+How to stop the @EnableAutoConfiguration? @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+
+what is bean, @Bean, IoC, Autowiring and types, bean scope
+
+Difference between @Query and @NamedQuery in JPA.
+
+what are the design patterns, have you used in your project?
+
+what is Dependency Injection in Spring ?
+
+what is Autowiring in Spring ?
+
+what are the REst API Annotations ?
+
+Explain the @SpringBootApplication in SpringBoot ?
+
+If you have a requirement, how can you implement that, is it client based or yourself will do?
+
+Explian the Agile methodology and JIRA, Difference between both ?
+
+what is Hibernate and why we use hibernate?
+
+What is dependency Injection and it types and which one is better to use.
+
+what is scope of bean ? 
+
+How to do the database configuration in spring boot ?
+
+How to read the property values in spring boot ?
+
+what Junit and it features and annotaions.
+
+Can we use Junits in Rest API ? and can we write the void return type in junits?
+
+what are the rest api methods and can we use POST method if we want to update the resource by using REST API in spring boot ?
+
+what are the annotaions used in Postmapping ?
+
+Did you call any webservices ?
+
+REST API Authenticator ?
+
+what is JMS MQ ?
+
+Using Spring JPA, how to retrive the all data?
+
+save() and saveAndFlush() methods in spring data JPA ?
+
+Difference between @Controller and @RestController.
+
+What is dependency Injection in Spring.
+
+What are the disadvantages of @Autowiring.
+
+
+
+
+
+
+
+Microservices :
+==============
+what is microservice architecture.
+
+how to call the Multiple Microservices.
+
+how to communicate the microservice and where to write the code (either controller/service/DAO)
+
+microservices and communication between them
+
+caching mechanism
+
+what is synchronous and Asynchrouns in microservices.
+
+how to communicate 2 microservice, which cloud server have you been used.
+
+is your project was monolithic and microservices.
+
+
+
+
+
+SQL Programs :
+==============
+
+1. To find the Second Highest Salary in the Employee Table
+
+select MAX(Salary) As SecondHighestSalary From Employee Where Salary NOT IN (Select MAX(Salary) From Employee) OR
+select MAX(Salary) As SecondHighestSalary From Employee Where Salary < (Select MAX(Salary) From Employee)
+
+2. by using SQL, to find the duplicate name in the employee table:
+
+SELECT Names,COUNT(*) AS Occurrence FROM Users1 GROUP BY Names HAVING COUNT(*)>1;  
+
+3. top 4 highest salary in sql ? 
+
+SELECT max(Salary) FROM Employee WHERE Salary NOT IN (
+													  SELECT TOP 3 Salary
+													  FROM Employee
+													  ORDER BY Salary DESC
+													  );
+													  
+4. How to find the maximun salary in department ID in List of employees by using streams ?
+
+SELECT DEPTID, MAX(SALARY) FROM EMPLOYEEDETAILS GROUP BY DEPTID;			
+
+5. How to find the maximum salary in a Employee table.
+
+SELECT MAX(salary) AS highest_salary FROM EMPLOYEE
+
